@@ -1,0 +1,31 @@
+@import 'components/header/header';
+@import 'components/important-info/important-info';
+@import 'components/comix/last-comix/last-comix';
+@import 'components/comix/comix';
+
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'SB Sans';
+
+}
+*{
+    box-sizing: border-box;
+}
+.content-block{
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 20px;
+}
+.container{
+    width: 940px;
+    padding: 0px 20px;
+    margin: 0px auto;
+}
+.section{
+    padding: 50px 0px;
+}
+img{
+    max-width: 100%;
+}

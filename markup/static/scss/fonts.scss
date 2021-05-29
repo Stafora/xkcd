@@ -1,0 +1,54 @@
+/* Your custom fonts here */
+
+/* Example
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../fonts/Custom-Font.eot');
+    src: url('../../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/Custom-Font.woff') format('woff'),
+         url('../../fonts/Custom-Font.svg#custom_font') format('svg');
+    font-weight: 400;       // For normal width. It could has another value   
+    font-style: normal;     // Also could has another value
+    }
+
+
+// Var for using custom font
+$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
+*/
+
+@font-face {
+	font-family: 'SB Sans';
+	src: url('../fonts/SBSansDisplay-Thin.eot');
+	src: local('☺'), url('../fonts/SBSansDisplay-Thin.woff') format('woff'), url('../fonts/SBSansDisplay-Thin.otf') format('otf'), url('../fonts/SBSansDisplay-Thin.ttf') format('truetype'), url('../fonts/SBSansDisplay-Thin.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SB Sans';
+	src: url('../fonts/SBSansDisplay-Light.eot');
+	src: local('☺'), url('../fonts/SBSansDisplay-Light.woff') format('woff'), url('../fonts/SBSansDisplay-Light.otf') format('otf'), url('../fonts/SBSansDisplay-Light.ttf') format('truetype'), url('../fonts/SBSansDisplay-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SB Sans';
+	src: url('../fonts/SBSansDisplay-Regular.eot');
+	src: local('☺'), url('../fonts/SBSansDisplay-Regular.woff') format('woff'), url('../fonts/SBSansDisplay-Regular.otf') format('otf'), url('../fonts/SBSansDisplay-Regular.ttf') format('truetype'), url('../fonts/SBSansDisplay-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SB Sans';
+	src: url('../fonts/SBSansDisplay-SemiBold.eot');
+	src: local('☺'), url('../fonts/SBSansDisplay-SemiBold.woff') format('woff'), url('../fonts/SBSansDisplay-SemiBold.otf') format('otf'), url('../fonts/SBSansDisplay-SemiBold.ttf') format('truetype'), url('../fonts/SBSansDisplay-SemiBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SB Sans';
+	src: url('../fonts/SBSansDisplay-Bold.eot');
+	src: local('☺'), url('../fonts/SBSansDisplay-Bold.woff') format('woff'), url('../fonts/SBSansDisplay-Bold.otf') format('otf'), url('../fonts/SBSansDisplay-Bold.ttf') format('truetype'), url('../fonts/SBSansDisplay-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}

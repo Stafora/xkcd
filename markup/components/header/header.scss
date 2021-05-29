@@ -1,0 +1,53 @@
+.header{
+    padding: 20px 0px;
+    background: #f6f6f6;
+    
+    &-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__logo{
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: 10px;
+        display: flex;
+
+        span{
+            &:nth-child(2n + 1){
+                color: #565aef;
+            }
+        }
+    }
+    &__text{
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    &-menu{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+        width: calc(100% - 430px);
+
+        &__item{
+            margin: 3px 20px;
+        }
+        &__link{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            color: #303844;
+            text-decoration: none;
+            transition: 0.3s;
+
+            &:hover{
+                color: #565aef;
+            }
+            
+        }
+    }
+}
